@@ -5,7 +5,7 @@ public class FibbonacciSequence {
 		int present = 0;
 		int past = 0;
 		int actualPast = 1;
-		for(int i = 0; i < 12; i++){
+		for(int i = 0; i < 100; i++){
 			present = past + actualPast;
 			System.out.println(present);
 			actualPast = past;
